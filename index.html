@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login/Registration Page</title>
-    <link rel="stylesheet" href="/style/style_login.css">
-
+  <title>Home-SoundSpace</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style/style_home.css">
 </head>
 
-<body>
-    <header></header>
-    <nav>
-        <ul class="menu">
-            <li class="menu">Home</li>
-            <li class="menu">Showroom</li>
-            <li class="menu">Rental</li>
-            <li class="menu">About</li>
-        </ul>
-    </nav>
-
+<body style="background-image: url(images/background.jpg);">
+  <header style="background-image: url(images/bng11.jpg);">
+    <a href="src/login_page.html">
+      <img src="images/profile.png" width="50" height="35" alt="profile" style="float: right;">
+    </a>
+    <a href="index.html">
+      <img src="images/logo.png" width="300" height="200" alt="logo" class="logo">
+    </a>
+    <div>
+      <svg class="anim" viewbox="0 0 200 50">
+        <text class="htext" y="40">CAR RENTAL</text>
+      </svg>
+    </div>
+    <hr style="border: 1px solid black; background-color: black; clear: both;">
+    <div class="menu">
+      <a href="index.html" class="active">Home</a>
+      <a href="src/category.html">Catagory</a>
+      <a href="src/about.html">About</a>
+      <div class="search-container">
+        <form>
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><img src="/images/icons/searchimage.png" width="17px" height="17px"></button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <hr style="border: 2px solid black; background-color: black;">
+ 
 </body>
 
 </html>
